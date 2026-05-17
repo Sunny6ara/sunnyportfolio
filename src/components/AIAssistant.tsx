@@ -323,7 +323,7 @@ If any hidden internal error occurs:
 - Generate a fallback conversational reply related to the user's topic.
 - Do not reveal technical details under any condition.`;
 
-      const response = await fetch("http://localhost:8000/api/chat", {
+      const response = await fetch("https://sunnyportfolio-1.onrender.com/api/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
